@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [peopleandtech]">
+  <test thread-count="5" verbose="0" name="PintTech Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pint.TestCases.TC_LogainTest_001">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="logainTest"/>
+        </methods>
+      </class> <!-- com.pint.TestCases.TC_LogainTest_001 -->
+      <class name="com.pint.TestCases.TC_LogainDDT_002">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="LogainTDD" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.pint.TestCases.TC_LogainDDT_002 -->
+    </classes>
+  </test> <!-- PintTech Test(failed) -->
+</suite> <!-- Failed suite [peopleandtech] -->

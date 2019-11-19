@@ -1,0 +1,9 @@
+com\pint\Uilities\ReadConfig.class
+com\pint\pageObject\LogainPage.class
+com\pint\pageObject\AddCustomerPage.class
+com\pint\TestCases\TC_LogainDDT_002.class
+com\pint\TestCases\TC_LogainTest_001.class
+com\pint\TestCases\BaseClass.class
+com\pint\Uilities\Reporting.class
+com\pint\TestCases\TC_AddCustomerTest_003.class
+com\pint\Uilities\XLUtils.class
